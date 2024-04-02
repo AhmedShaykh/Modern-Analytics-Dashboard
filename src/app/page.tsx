@@ -74,8 +74,12 @@ const Home = async () => {
     }).slice(0, 5);
 
     return (
-        <div className="min-h-screen w-full py-12 flex justify-center items-center">
+        <div className="min-h-screen w-full py-12 px-4 flex justify-center items-center">
             <div className="relative w-full max-w-6xl mx-auto text-white">
+                <h1 className="text-4xl text-white text-center max-w-5xl pt-2 pb-12 font-bold">
+                    Modern Analytics Dashboard
+                </h1>
+
                 <AnalyticsDashboard
                     avgVisitorsPerDay={avgVisitorsPerDay}
                     amtVisitorsToday={amtVisitorsToday}
